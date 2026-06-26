@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastero Cafe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="nav-bar">
+        <div class="logo">Mastero Cafe</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="#footer">Contact Us</a></li>
+                <li>
+                    <a href="#" class="cart-nav-link">
+                        AddtoCart<span id="cart-count">0</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <button class="primary-btn">☕About us</button>
+    </header>
+    <section class="hero" id="home">
+    <div class="hero-content">
+        <h1>Awaken Your Senses With The <span>Perfect Brew</span></h1>
+        <p>Experience the rich, bold flavors of Mastero Cafe. Every cup is hand-crafted with passion using the finest, ethically sourced coffee beans from around the world.</p>
+        <button class="primary-btn" onclick="window.location.href='menu.html'">☕︎𝕨𝕖𝕝𝕔𝕠𝕞𝕖 𝕥𝕠 𝕞𝕒𝕤𝕥𝕖𝕣𝕠 𝕔𝕒𝕗𝕖 ☕︎</button>
+    </div>
+    <div class="hero-img">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfBjXLiJSRHmKE7fF78hIzhzEHc3JnTtvsD2TA8zNT_A&s=10" alt="Pouring hot coffee into a cup">
+    </div>
+    </section>
+    <section class="products" id="products">
+        <h2 class="section-title">Our Signature Brews</h2>
+        
+        <div class="product-grid">
+            <a href="menu.html" style="text-decoration: none;">
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?q=80&w=500&auto=format&fit=crop" alt="Classic Espresso">
+                <h3>Classic Espresso</h3>
+                <p class="price">₹300</p>
+                <button class="cart-btn">Add to Cart</button>
+            </div>
+            </a>
+            <a href="menu.html" style="text-decoration: none;">
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJijZ16_j__WzmVgsxNWE8VGF_j2bbvgnUGkQ6bj6vpg&s=10" alt="Creamy Cappuccino">
+                <h3>Creamy Cappuccino</h3>
+                <p class="price">₹350</p>
+                <button class="cart-btn">Add to Cart</button>
+            </div>
+            </a>
+            <a href="menu.html" style="text-decoration: none;">
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?q=80&w=500&auto=format&fit=crop" alt="Caramel Latte">
+                <h3>Caramel Latte</h3>
+                <p class="price">₹600</p>
+                <button class="cart-btn">Add to Cart</button>
+            </div>
+            </a>
+            <a href="menu.html" style="text-decoration: none;">
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxjpPRtJ_MDAwKI0T01hyuCMgNUvoG8fLFnhzWeDhIRg&s=10" alt="Cuban coffee">
+                <h3>Cuban coffee</h3>
+                <p class="price">₹419</p>
+                <button class="cart-btn">Add to Cart</button>
+            </div>
+            </a>
+            <a href="menu.html" style="text-decoration: none;">
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuLW4znOCGvX0EggV5DQtGwXMC7-oB9C8_j2t2-whm7A&s" alt="Cold Brew">
+                <h3>Cold Brew</h3>
+                <p class="price">₹650</p>
+                <button class="cart-btn">Add to Cart</button>
+            </div>
+            </a>
+            <a href="menu.html" style="text-decoration: none;">
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIIug9UckAcWs0SEMOTR0rMvMYMAa4PqBwR2Re0k33Sg&s=10" alt="Dessert Coffees">
+                <h3>Dessert Coffees</h3>
+                <p class="price">₹800</p>
+                <button class="cart-btn">Add to Cart</button>
+            </div>
+            </a>
+            <a href="menu.html" style="text-decoration: none;">
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6E4sAEn1cbcB_fY6H3ownvivsWJjkX1C2yYSAuy-mcGXhdRC8K69W8Jc&s=10" alt="Turkish Coffee">
+                <h3>Turkish Coffee</h3>
+                <p class="price">₹1,500</p>
+                <button class="cart-btn">Add to Cart</button>
+            </div>
+            </a>
+            <a href="menu.html" style="text-decoration: none;">
+            <div class="product-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTinVrIqv2kc9FpdGIhxOrGHVoKLxye3Ibhf3Ld4gcgYQ&s=10" alt="Mocha">
+                <h3>Mocha</h3>
+                <p class="price">₹399</p>
+                <button class="cart-btn">Add to Cart</button>
+            </div>
+            </a>
+            <div class="footer" id="footer">
+                <img src="mastero cafe.png" alt="">
+            </div>
+        </div>
+    </section>
+    <script>
+       let cartTotal=parseInt(localStorage.getItem('masteroCartTotal')) || 0;
+       const cartCountElement=document.getElementById('cart-count');
+       if(cartCountElement)
+        {
+        cartCountElement.innerText = cartTotal;
+        }
+        const addButtons=document.querySelectorAll('.cart-btn, .list-cart-btn');
+        addButtons.forEach(button => {
+        button.addEventListener('click', function(event) {
+            event.preventDefault();
+            cartTotal++;
+            localStorage.setItem('masteroCartTotal', cartTotal);
+         if(cartCountElement)
+         {
+            cartCountElement.innerText = cartTotal;
+            cartCountElement.classList.add('pop-animation');
+            setTimeout(() => {
+                cartCountElement.classList.remove('pop-animation');
+            }, 200);
+         }
+            const originalText = this.innerText;
+            this.innerText = "Added!";
+            this.style.backgroundColor = "rgb(226, 96, 44)";
+            this.style.color = "#2c4970";
+            setTimeout(() => {
+                this.innerText = originalText;
+                this.style.backgroundColor = "";
+                this.style.color = "";
+            }, 1500);
+         });
+        });   
+    </script>
+   
+
+</body>
+</html>
